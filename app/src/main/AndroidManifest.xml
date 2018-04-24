@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FirstActivit"
+            android:name=".FirstActivity"
             android:label="闭包演示">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

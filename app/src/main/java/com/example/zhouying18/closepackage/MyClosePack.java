@@ -11,10 +11,18 @@ import java.io.Serializable;
  */
 
 public class MyClosePack implements ClosePack, Serializable {
+
+    private String data;
+
+    public MyClosePack(String data) {
+        this.data = data;
+    }
+
     @Override
     public void excute(Context context, int i) {
         Intent intent = new Intent(context, ThirdActivity.class);
         intent.putExtra("type", i);
+        intent.putExtra("data", data);
         context.startActivity(intent);
     }
 }

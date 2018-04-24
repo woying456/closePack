@@ -7,7 +7,7 @@ import android.view.View;
 
 import java.io.Serializable;
 
-public class FirstActivit extends AppCompatActivity implements View.OnClickListener {
+public class FirstActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ClosePack closePack;
 
@@ -16,7 +16,7 @@ public class FirstActivit extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.button).setOnClickListener(this);
-        closePack = new MyClosePack();
+        closePack = new MyClosePack("我是来自于第一个页面的数据");
     }
 
     @Override
