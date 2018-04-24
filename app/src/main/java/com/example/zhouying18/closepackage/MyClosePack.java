@@ -6,6 +6,7 @@ import android.content.Intent;
 import java.io.Serializable;
 
 /**
+ * 封装的第一个页面的代码块，在中间页面执行
  * Created by zhouying18 on 2017/4/1.
  */
 

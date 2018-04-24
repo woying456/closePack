@@ -7,7 +7,7 @@ import android.view.View;
 
 import java.io.Serializable;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class FirstActivit extends AppCompatActivity implements View.OnClickListener {
 
     private ClosePack closePack;
 
