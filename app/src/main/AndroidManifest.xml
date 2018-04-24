@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".FirstActivit"
-            android:label="第一个页面">
+            android:label="闭包演示">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,7 @@
             android:label="中间页面" />
         <activity
             android:name=".ThirdActivity"
-            android:label="第二个页面" />
+            android:label="最后页面" />
     </application>
 
 </manifest>
